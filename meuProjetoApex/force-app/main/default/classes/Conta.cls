@@ -26,5 +26,10 @@ public abstract class Conta {
         saldo -= valor;
     }
 
+    // ESTE MÉTODO PARA testar 
+    public Decimal getSaldo() {
+        return saldo;
+    }
+
     public abstract Decimal calcularTaxa();
 }
